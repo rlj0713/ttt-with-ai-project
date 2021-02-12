@@ -1,0 +1,24 @@
+
+[1mFrom:[0m /home/rlj0713/Development/code/phase1/ttt-with-ai-project/lib/game.rb @ line 101 Game#turn:
+
+    [1;34m100[0m: [32mdef[0m [1;34mturn[0m
+ => [1;34m101[0m:     binding.pry
+    [1;34m102[0m:     user_input = [1;36mself[0m.human.move
+    [1;34m103[0m:     index = input_to_index(user_input)
+    [1;34m104[0m:     [32mif[0m valid_move?(index)
+    [1;34m105[0m:       player_token = current_player
+    [1;34m106[0m:       move(index, player_token)
+    [1;34m107[0m:       display_board
+    [1;34m108[0m:     [32melse[0m
+    [1;34m109[0m:       turn
+    [1;34m110[0m:     [32mend[0m
+    [1;34m111[0m: 
+    [1;34m112[0m:     
+    [1;34m113[0m:     [1;34m# binding.pry[0m
+    [1;34m114[0m:     [1;34m# if self.current_player == player_1[0m
+    [1;34m115[0m:     [1;34m#     self.board.update(player_1.move(position), "X")[0m
+    [1;34m116[0m:     [1;34m# else[0m
+    [1;34m117[0m:     [1;34m#     self.board.update(player_2.move(position), "Y")[0m
+    [1;34m118[0m:     [1;34m# end[0m
+    [1;34m119[0m: [32mend[0m
+
